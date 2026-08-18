@@ -2,7 +2,7 @@
   "name": "mario-lang",
   "displayName": "Mario Lang",
   "description": "Language support for the Mario Lang",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "samcurtis",
   "icon": "icon.jpg",
   "license": "MIT",
@@ -17,7 +17,11 @@
       "id": "mario",
       "aliases": ["Mario", "mario"],
       "extensions": [".mario"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./icon.png",
+        "dark": "./icon.png"
+      }
     }],
     "grammars": [{
       "language": "mario",
