@@ -2,7 +2,7 @@
   "name": "mario-lang",
   "displayName": "Mario Lang",
   "description": "Language support for the Mario Lang",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "samcurtis",
   "icon": "icon.jpg",
   "license": "MIT",
