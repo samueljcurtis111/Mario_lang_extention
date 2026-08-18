@@ -1,0 +1,28 @@
+{
+  "name": "mario-lang",
+  "displayName": "Mario Lang",
+  "description": "Language support for the Mario Lang",
+  "version": "0.0.2",
+  "publisher": "samcurtis",
+  "icon": "icon.jpg",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mario",
+      "aliases": ["Mario", "mario"],
+      "extensions": [".mario"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mario",
+      "scopeName": "source.mario",
+      "path": "./syntaxes/mario.tmLanguage.json"
+    }]
+  }
+}
